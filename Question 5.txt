@@ -1,0 +1,20 @@
+//Hospital
+#include <iostream>
+using namespace std;
+class hospital{
+public:
+
+hospital( int t){
+ while(t--){
+ int charge;int days;
+ cin>>charge>>days;
+ cout<<"the cost is "<<charge*days<<endl;}
+}
+
+};
+
+int main() {
+
+hospital(2);
+    return 0;
+}

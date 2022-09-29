@@ -1,0 +1,15 @@
+ #include <iostream>
+using namespace std;
+class cons{
+    int a;
+    int b;
+    int c;
+    public:
+    cons(int a,int b,int c){
+        cout<<a<<b<<c;
+    }
+};
+int main(){
+    cons(1,2,3);
+    return 0;
+}

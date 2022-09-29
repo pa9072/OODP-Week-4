@@ -1,0 +1,18 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+class Power{
+    public:
+    int n;
+    Power(int n){
+        while(n!=0){
+            int temp=pow(n,3);
+            cout<<temp;
+            n--;
+        }
+    }
+};
+int main() {
+  Power(5);
+    return 0;
+}
